@@ -1,0 +1,16 @@
+
+{
+    "scripts": {
+        "Frontend:Install":"cd udagram-frontend && npm install",
+        "Backend:Install":"cd udagram-api && npm install",
+        "Frontend:Build":"cd udagram-frontend && npm run build",
+        "Backend:Build":"cd udagram-api && npm run build",
+        "Backend:Test":"cd udagram-api && npm run test",
+        "Backend:Run":"cd udagram-api && npm run prod",
+        "Frontend:Run":"cd udagram-frontend && npm run start",
+        "deploy":"chmod +x ./bin/deploy.sh && bash ./bin/deploy.sh"
+    },
+    "devDependencies": {}
+}
+
+
