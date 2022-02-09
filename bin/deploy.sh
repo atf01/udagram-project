@@ -1,1 +1,10 @@
-echo "lol ya bro!"
+echo  $POSTGRES_USERNAME
+echo  $POSTGRES_PASSWORD
+echo  $POSTGRES_DB
+echo  $DB_PORT
+echo  $PORT
+echo  $POSTGRES_HOST
+echo  $AWS_REGION
+echo  $URL
+echo  $JWT_SECRET
+echo  $AWS_BUCKET
