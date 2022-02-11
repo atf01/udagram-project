@@ -7,7 +7,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: "cimg/node:stable"
+      - image: "cimg/node:14.15.5"
     steps:
       - checkout
       - run:
@@ -33,7 +33,7 @@ jobs:
 
   deploy:
     docker:
-      - image: "cimg/node:stable"
+      - image: "cimg/node:14.15.5"
     steps:
       - attach_workspace:
           at: /home/circleci/project
