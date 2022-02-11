@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Frontend Build
           command: |
-            npm run Frontend:Build-Prod
+            npm run Frontend:Build
       - run:
           name: Backend Build
           command: |
