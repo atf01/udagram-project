@@ -8,7 +8,8 @@
         "Backend:Test":"cd udagram-api && npm run test",
         "Backend:Run":"cd udagram-api && npm run prod",
         "Frontend:Run":"cd udagram-frontend && npm run start",
-        "deploy":"chmod +x ./bin/deploy.sh && bash ./bin/deploy.sh"
+        "Frontend:Deploy": "cd udagram-frontend && npm run deploy",
+        "Backend:Deploy": "cd udagram-api && npm run deploy"
     },
     "devDependencies": {}
 }
