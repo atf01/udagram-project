@@ -11,19 +11,19 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Front-End Install
+          name: Frontend Install
           command: |
             npm run Frontend:Install
       - run:
-          name: Back-End Install
+          name: Backend Install
           command: |
             npm run Backend:Install
       - run:
-          name: Front-End Build
+          name: Frontend Build
           command: |
             npm run Frontend:Build
       - run:
-          name: Back-End Build
+          name: Backend Build
           command: |
             npm run Backend:Build
       - persist_to_workspace:
@@ -41,13 +41,13 @@ jobs:
       - aws-cli/setup
       - eb/setup
       - run:
-          name: Deploy BE App
+          name: Deploy Backend API
           command: |
-            npm run backend:deploy
+            npm run Backend:Deploy
       - run:
-          name: Deploy FE App
+          name: Deploy Frontend App
           command: |
-            npm run frontend:deploy
+            npm run Frontend:Deploy
 
 workflows:
   version: 2
