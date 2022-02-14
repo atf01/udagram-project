@@ -13,49 +13,63 @@ jobs:
     steps:
       - checkout
       - run:
+          #install all frontend dev dependecies
           name: Frontend Install
           command: |
             npm run Frontend:Install
       - run:
+          #install all Backend dev dependecies
           name: Backend Install
           command: |
             npm run Backend:Install
       - run:
+          #building Frontend App to make sure new changes don't break the app
           name: Frontend Build
           command: |
             npm run Frontend:Build
       - run:
+          #running Backend API to make sure new Changes don't break the API
           name: Backend Build
           command: |
             npm run Backend:Build
+          #caching circleci directory   
       - persist_to_workspace:
           root: /home/circleci/project
           paths:
             - "./*"
 
   deploy:
+    # a job that's supposed to deploy the application after building step
     docker:
       - image: "cimg/node:14.15.5"
     steps:
+      # consumes the caching of the build phase
       - attach_workspace:
           at: /home/circleci/project
+      # install all dependecies that are necessary to deploy the application
       - checkout
       - aws-cli/setup
       - eb/setup
       - run:
+          #deploying the backend API first
           name: Deploy Backend API
           command: |
             npm run Backend:Deploy
       - run:
+          # deploying the frontend API to its s3 bucket (frontend web host)
           name: Deploy Frontend App
           command: |
             npm run Frontend:Deploy
 
 workflows:
+ #the entire workflow describing the order on which each job runs!
   version: 2
   build_deploy:
     jobs:
       - build:
+        # making sure that the either building or deployment happens only in branch (main) on github
+        # necessary to separate between development branches and building branches
+        # in the near future a new branch will be specified for testing purpose only
           filters:
             branches:
               only:
