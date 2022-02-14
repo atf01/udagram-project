@@ -6,7 +6,7 @@
         "Frontend:Build":"cd udagram-frontend && npm run build",
         "Backend:Build":"cd udagram-api && npm run build",
         "Backend:Test":"cd udagram-api && npm run test",
-        "Backend:Run":"cd udagram-api && npm run prod",
+        "Backend:Run":"cd udagram-api && npm run dev",
         "Frontend:Run":"cd udagram-frontend && npm run start",
         "Frontend:Deploy": "cd udagram-frontend && npm run deploy",
         "Backend:Deploy": "cd udagram-api && npm run deploy",
