@@ -52,3 +52,5 @@ http://udagramwebapi-env.eba-8u5xfa9g.us-east-1.elasticbeanstalk.com/
 
 ## Pipeline overview
 ![alt text](./Diagrams/pipeline.png)
+
+### note that you may find all building and deployment successful steps as screenshots in docs file 
