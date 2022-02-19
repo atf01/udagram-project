@@ -8,6 +8,6 @@ circleCi is a platform that helps in the process of creating a pipeline for cont
 the end users.
 we can configure a pipeline simply by creating a config.yml included inside a folder .circleci where circleci can find the config file and in turns execute the pipeline.
 you can find more about circleci through:
-- [Documentation](https://circleci.com/docs/)
+- [Documentation](https://circleci.com/docs)
 
 
