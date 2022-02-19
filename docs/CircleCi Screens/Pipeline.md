@@ -11,4 +11,7 @@ we can configure a pipeline simply by creating a config.yml included inside a fo
 ### you can find more about circle ci through:
 - [Documentation](https://circleci.com/docs/)
 
+## The logical structure of the pipeline contains two main jobs (building and deployment) as depicted in the image below
+<img src="https://github.com/atf01/udagram-project/blob/main/docs/CircleCi%20Screens/pipeline.PNG" width="200" height="200">
+
 
