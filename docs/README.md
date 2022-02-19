@@ -1,5 +1,5 @@
 # AWS - CI/CD
-This project is an project that's aimed to learn  about aws services that helps in deployment such as elastic beanstalk, RDS, S3.
+This project aims to give a practice on aws services that helps in deployment such as elastic beanstalk, RDS, S3.
 In addition to automating the CI/CD process using CircleCi.
 
 
@@ -33,7 +33,7 @@ ie (platform, application name, environment name, etc..)
 6. In order to serve the Frontend you will need to create s3 bucket that's readable
 7. After creating the bucket, update `YOUR-BUCKET-NAME` with the new bucket name in this file (`udagram/udagram-frontend/bin/deploy.sh`)  
     ```
-    aws s3 cp --recursive --acl public-read ./build s3://YOUR-BUCKET-NAME
+    aws s3 cp --recursive --acl public-read ./build s3://udagram-fronted
 
     ```
 
