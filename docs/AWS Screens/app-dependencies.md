@@ -20,3 +20,16 @@ the image below shows the expected result after a successful configuration of th
 
 <img src="https://github.com/atf01/udagram-project/blob/main/docs/AWS%20Screens/Elastic%20beanstalk%20env%20created.PNG">
 
+##S3 Bucket
+
+it's a service that's aimed to host our project files, it's created by default by elastic beanstalk when creating and configuring a new server.
+S3 bucket can be configured to host our frontend due to the fact that our build results in a collection of html,css and javascript files that works the same way as our frontend app.
+the image below depicts the correct result of uploading our frontend files on its corresponding s3 bucket named udagram-frontend
+
+<img src="https://github.com/atf01/udagram-project/blob/main/docs/AWS%20Screens/frontend%20app%20uploaded.PNG">
+
+and the this image shows the overall buckets created for either the frontend and the backend
+
+<img src="https://github.com/atf01/udagram-project/blob/main/docs/AWS%20Screens/S3%20Buckets.PNG">
+
+
