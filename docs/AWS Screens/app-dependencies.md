@@ -7,7 +7,7 @@ it's a platform that runs all javascript/typescript based frameworks.
 ### there're more to know about it through:
 - [Documentation](https://nodejs.org/en/docs/)
 -
-#### Deployment Dependencies (AWS Console)
+## Deployment Dependencies (AWS Console)
 
 this documentation will walk you throguh the necessary steps of creating the required resources to deploy the udagram web application
 
