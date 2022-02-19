@@ -54,4 +54,4 @@ http://udagramwebapi-env.eba-8u5xfa9g.us-east-1.elasticbeanstalk.com/
 ![alt text](./Diagrams/pipeline.png)
 
 ## other documentations
-
+- udagram app dependencies [a relative link](./CircleCi Screens/Pipeline.md)
