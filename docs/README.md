@@ -55,5 +55,5 @@ http://udagramwebapi-env.eba-8u5xfa9g.us-east-1.elasticbeanstalk.com/
 
 ## other documentations
 - [udagram pipeline process](https://github.com/atf01/udagram-project/blob/main/docs/CircleCi%20Screens/Pipeline.md)
-- [udagram app dependencies] (https://github.com/atf01/udagram-project/blob/main/docs/AWS%20Screens/app-dependencies.md)
-- [udagram Infrastructure description] (https://github.com/atf01/udagram-project/blob/main/docs/Diagrams/infrastructures.md)
+- [udagram app dependencies](https://github.com/atf01/udagram-project/blob/main/docs/AWS%20Screens/app-dependencies.md)
+- [udagram Infrastructure description](https://github.com/atf01/udagram-project/blob/main/docs/Diagrams/infrastructures.md)
