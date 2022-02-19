@@ -7,7 +7,8 @@ this README is aimed to show in details the rationale behind the pipeline constr
 circleCi is a platform that helps in the process of creating a pipeline for continuously integrating newly merged code to the project and then publishing the entire app to
 the end users.
 we can configure a pipeline simply by creating a config.yml included inside a folder .circleci where circleci can find the config file and in turns execute the pipeline.
-you can find more about circleci through:
-- [Documentation](https://circleci.com/docs)
+
+### you can find more about circle ci through:
+- [Documentation](https://circleci.com/docs/)
 
 
