@@ -53,4 +53,7 @@ http://udagramwebapi-env.eba-8u5xfa9g.us-east-1.elasticbeanstalk.com/
 ## Pipeline overview
 ![alt text](./Diagrams/pipeline.png)
 
-#### note that you may find all building and deployment successful steps as screenshots in AWS screenshots & Circle Ci screenshots
+#### Infrastructure description & App dependencies & Pipeline process
+- [Pipeline process](./CircleCi Screens/Pipeline.md)
+- [App dependencies] (./AWS Screens/App-Dependencies.md)
+- [Infrastructure description] (./Diagrams/infrastructure-description.md)
