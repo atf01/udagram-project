@@ -14,12 +14,12 @@ it's a frontend framework that's used to build responsive and well designed UI f
 
 #### there're more to know about it through:
 - [Documentation](https://angular.io/docs)
-- 
+
 ### Express
 it's a framework that's used to facilitate the design of backend APIs
 #### there're more to know about it through:
 - [Documentation](https://expressjs.com/)
-- 
+
 ## Deployment Dependencies (AWS Console)
 
 this documentation will walk you throguh the necessary steps of creating the required resources to deploy the udagram web application
