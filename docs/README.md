@@ -1,6 +1,7 @@
 # AWS - CI/CD
 This project aims to give a practice on aws services that helps in deployment such as elastic beanstalk, RDS, S3.
 In addition to automating the CI/CD process using CircleCi.
+this Readme is aimed to give a brief introduction for the entire integration and deployment process
 
 
 ## Project setup
